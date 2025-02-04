@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Street Based Children</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero-section {
+      background: url('hero-image.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+    }
+    .cta-buttons .btn {
+      margin: 10px;
+    }
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .footer {
+      background: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Street Based Children Logo" width="50"> Street Based Children
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#get-involved">Get Involved</a></li>
+          <li class="nav-item"><a class="nav-link" href="#donate">Donate</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stories">Stories of Hope</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <h1>For I is missing, E is on the street.</h1>
+      <p class="lead">Empowering street children with hope, education, and a brighter future.</p>
+      <div class="cta-buttons">
+        <a href="#donate" class="btn btn-primary btn-lg">Donate Now</a>
+        <a href="#get-involved" class="btn btn-outline-light btn-lg">Get Involved</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>At <strong>Street Based Children</strong>, we believe every child deserves a chance to thrive. Founded in [Year], our charity is dedicated to transforming the lives of street children by providing them with education, shelter, healthcare, and emotional support.</p>
+          <p>Our vision is a world where every child has a safe place to call home and the tools to build a brighter future.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="about-us.jpg" alt="About Us" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title">Programs & Initiatives</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="education.jpg" class="card-img-top" alt="Education Program">
+            <div class="card-body">
+              <h5 class="card-title">Street to School</h5>
+              <p class="card-text">Providing scholarships, school supplies, and mentorship to help children enroll and stay in school.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="shelter.jpg" class="card-img-top" alt="Shelter Program">
+            <div class="card-body">
+              <h5 class="card-title">Safe Shelter Initiative</h5>
+              <p class="card-text">Offering safe housing, meals, and a supportive environment for children in need.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="healthcare.jpg" class="card-img-top" alt="Healthcare Program">
+            <div class="card-body">
+              <h5 class="card-title">Health & Nutrition Program</h5>
+              <p class="card-text">Delivering medical check-ups, vaccinations, and nutritious meals to children.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved Section -->
+  <section id="get-involved" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Get Involved</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h3>Volunteer</h3>
+          <p>Join us on the ground and make a direct impact in the lives of street children.</p>
+          <a href="#" class="btn btn-primary">Become a Volunteer</a>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3>Partner With Us</h3>
+          <p>Collaborate with us to amplify our impact and reach more children.</p>
+          <a href="#" class="btn btn-primary">Partner With Us</a>
+        </div>
+        <div class="col-md-4 text-center">
+          <h3>Organize a Fundraiser</h3>
+          <p>Host a charity event or online campaign to support our cause.</p>
+          <a href="#" class="btn btn-primary">Organize a Fundraiser</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate Section -->
+  <section id="donate" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title">Donate</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Your donation can change a child’s life. Here’s how your contribution helps:</p>
+          <ul>
+            <li>$25: Provides school supplies for one child.</li>
+            <li>$50: Covers a month of meals for a child.</li>
+            <li>$100: Funds healthcare for a child for six months.</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-lg">Donate Now</a>
+        </div>
+        <div class="col-md-6">
+          <img src="donate.jpg" alt="Donate" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stories of Hope Section -->
+  <section id="stories" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Stories of Hope</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="riya.jpg" class="card-img-top" alt="Riya's Story">
+            <div class="card-body">
+              <h5 class="card-title">Riya's Story</h5>
+              <p class="card-text">Riya was living on the streets, struggling to survive. Through our Street to School program, she enrolled in school and discovered her love for art. Today, Riya is a confident student with dreams of becoming a teacher.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="sam.jpg" class="card-img-top" alt="Sam's Story">
+            <div class="card-body">
+              <h5 class="card-title">Sam's Story</h5>
+              <p class="card-text">Sam found refuge in our Safe Shelter Initiative. With access to education and healthcare, he is now thriving and dreams of becoming a doctor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Email:</strong> info@streetbasedchildren.org</p>
+          <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+          <p><strong>Address:</strong> 123 Hope Street, City, Country</p>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Street Based Children. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
